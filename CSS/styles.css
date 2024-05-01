@@ -1,5 +1,5 @@
 html{
-    background-color: black;
+    background-color:#f8efed;
 
 }
 
@@ -10,3 +10,24 @@ selectorEtiquetaHTML,Class,ID {
     propiedad : valor ;
     propiedad : valor ;
 } */
+
+h1{
+    color: #2098d8;
+    background-color: #40252b;
+}
+
+p{
+    color:#87544d;
+}
+
+div{
+    background-color: red;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black ;
+  
+}
+a{
+    background-color: purple;
+}
