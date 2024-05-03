@@ -1,33 +1,39 @@
-html{
-    background-color:#f8efed;
-
-}
 
 /*
 Sintaxis de CSS
-selectorEtiquetaHTML,Class,ID {
+selectorEtiquetaHTML,.Class,#ID {
     propiedad : valor ;
     propiedad : valor ;
     propiedad : valor ;
 } */
 
-h1{
-    color: #2098d8;
-    background-color: #40252b;
+body{
+    background-color:rgb(126, 126, 203);
 }
 
-p{
-    color:#87544d;
+.caja1 {
+    color: green;
+    background-color: yellow;   
+    height: 250px;
+    width: 250px;
+
+    border: 2px solid black;
+    padding: 20px 10px 20px 10px;
+    padding: 20px 10px; 
+    padding: 30px;
+    margin:10px ;
+    box-sizing: content-box;
+}
+.caja2 {
+    color: black;
+    background-color: #fff;
+    height: 250px;
+    width: 250px;
+}
+.caja3 {
+    color: orange;
+    background-color: #fff;
+    height: 250px;
+    width: 250px;
 }
 
-div{
-    background-color: red;
-    color: #fff;
-    width: 200px;
-    height: 200px;
-    border: 5px solid black ;
-  
-}
-a{
-    background-color: purple;
-}   
