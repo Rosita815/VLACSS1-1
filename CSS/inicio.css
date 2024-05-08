@@ -1,0 +1,65 @@
+/* 
+Selector universal
+Reinicando los valores del navegador  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    background-color: white;
+}
+
+body{
+
+background-color: #738e82;
+font-family: Arial, Helvetica, sans-serif;
+color: #f5f8f6;
+width:1000px ;
+height: 1000px;
+margin: 10px auto;
+
+}
+/* Inicio Header  */
+header{
+    background-color: #3a4b45;
+    height: 100px;
+}
+/* Fin Header  */
+
+/* Inicio Nav  */
+nav{
+    background-color: #b6cec6;
+    height: 200px;
+}
+/* Fin  Nav  */
+/* Inicio Main  */
+main{
+    background-color: #5f6563;
+    height: 550px;
+}
+
+article{
+    width: 300px;
+    background-color: slateblue;
+    padding: 1em;
+    margin: 0 auto;
+    height: 300px;
+}
+img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Fin  Main  */
+
+
+/* Inicio Footer  */
+footer{
+    background-color: #3abf90;
+    height: 150px;
+}
+/* Fin  Footer  */
