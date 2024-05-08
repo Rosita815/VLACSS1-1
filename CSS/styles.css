@@ -6,34 +6,19 @@ selectorEtiquetaHTML,.Class,#ID {
     propiedad : valor ;
     propiedad : valor ;
 } */
+.micuadro{
 
-body{
-    background-color:rgb(126, 126, 203);
-}
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center ;
 
-.caja1 {
-    color: green;
-    background-color: yellow;   
-    height: 250px;
-    width: 250px;
+}
+.micuadro:hover {
 
-    border: 2px solid black;
-    padding: 20px 10px 20px 10px;
-    padding: 20px 10px; 
-    padding: 30px;
-    margin:10px ;
-    box-sizing: content-box;
-}
-.caja2 {
-    color: black;
-    background-color: #fff;
-    height: 250px;
-    width: 250px;
-}
-.caja3 {
-    color: orange;
-    background-color: #fff;
-    height: 250px;
-    width: 250px;
-}
+    background-color: aqua;
 
+}
